@@ -1,0 +1,9 @@
+.search-wrapper{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    border:1px solid black;
+    max-width: 1250px;
+    margin: 0 auto;
+}
