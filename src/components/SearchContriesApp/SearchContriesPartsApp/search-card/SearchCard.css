@@ -1,0 +1,30 @@
+.search-card-wrapper{
+    display: flex;
+    flex-direction:column;
+    flex-wrap: wrap;
+    margin-top: 10px;
+    justify-content: space-between;
+    border:1px solid black;
+    max-width: 750px;
+    cursor: pointer;
+    transition: all .2s ease-in-out;
+}
+.search-card-wrapper:hover{ 
+    transform: scale(1.05); 
+}
+.search-card-name{
+    max-width:120px;
+    margin: 10px auto;  
+}
+.search-card-btns-wrapper{
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    background: black;
+    opacity: 0.9;
+    display: none;
+}
+
+.search-card-wrapper:hover .search-card-btns-wrapper{
+    display: block;
+}
